@@ -25,3 +25,6 @@ BoltzGen 混合检查点的设计和逆折叠批次完成 32/32 条，模型失�
 后续自动恢复流程曾尝试写入同一预测目录。为避免并发输出冲突，已停止该重复进程并保留其不完整日志。原定筛选完成，项目解析器成功读取 32 个预测。归档期间没有启动额外设计或折叠计算。
 
 运行日志记录 GPU 为 NVIDIA RTX 5070 Laptop。第三方模型权重、缓存及再分发许可不明的工具仍未纳入发布包。
+
+
+This file is a frozen record of the preceding 864-design checkpoint. The subsequent automatic follow-on screen and three-seed confirmation are recorded in [RUN_STATUS_20261031_follow_on_screen.md](docs/RUN_STATUS_20261031_follow_on_screen.md); the cumulative unique screened-design count there is 896.

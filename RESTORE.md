@@ -9,3 +9,6 @@
 7. Configure paths and dependencies for the local environment. Historical commands are records of what was run, not a guarantee that current dependencies or remote services will reproduce identical results.
 
 Release assets are split below 512 MiB each. The archive was verified by downloading the public assets to a clean directory, checking ZIP integrity, comparing manifests, and hashing restored members.
+
+
+Supplemental release: [archive-2026-10-31-batch2](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2). Download and verify this asset in addition to the original archive when recovering the follow-on Boltz2 screen.

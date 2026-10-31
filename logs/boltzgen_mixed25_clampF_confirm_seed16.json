@@ -1,0 +1,47 @@
+{
+  "command": [
+    "USER_HOME/miniconda3/envs/boltz/bin/boltz",
+    "predict",
+    "inputs/boltzgen_mixed25_clampF_mpnn_v1_confirmation",
+    "--out_dir",
+    "PROJECT_ROOT/predictions/boltzgen_mixed25_clampF_confirm_seed16",
+    "--model",
+    "boltz2",
+    "--recycling_steps",
+    "3",
+    "--sampling_steps",
+    "200",
+    "--diffusion_samples",
+    "1",
+    "--max_parallel_samples",
+    "1",
+    "--seed",
+    "16",
+    "--num_workers",
+    "0",
+    "--max_msa_seqs",
+    "64",
+    "--num_subsampled_msa",
+    "64",
+    "--output_format",
+    "pdb"
+  ],
+  "input_sha256": null,
+  "input_dependencies_sha256": {
+    "inputs/boltzgen_mixed25_clampF_mpnn_v1_confirmation/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_WT.yaml": "14fd02fcff49b819ffebc012e5b6c749a622a2a07551a6916d29140a7098db5e",
+    "PROJECT_ROOT/inputs/msa/A.csv": "2eecf6d1eb88c95cafabee17089a59a0178705c9bea144e09485944d8f4787fd",
+    "PROJECT_ROOT/inputs/msa/B.csv": "1d98510fbb40a473c8036510b93c3242fce8b6d8c7e771301114a1dbfc78523b",
+    "inputs/boltzgen_mixed25_clampF_mpnn_v1_confirmation/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_apo.yaml": "6688ed0e083736acdf4c4c8d71c63d24476ef62c85ec5336bc72edf31b397309",
+    "inputs/boltzgen_mixed25_clampF_mpnn_v1_confirmation/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_mutant.yaml": "fca658e608847b2d2d0c4ea1755491fb38931acb3636f2ddbe631df6ba3208e9"
+  },
+  "start_utc": "2026-10-31T09:51:23.957558+00:00",
+  "status": "process_complete",
+  "actual_gpu": "NVIDIA GeForce RTX 5070 Laptop GPU; driver nvidia-smi; printed A6000 is kernel fallback metadata",
+  "exit_code": 0,
+  "end_utc": "2026-10-31T09:53:11.889463+00:00",
+  "outputs": [
+    "PROJECT_ROOT/predictions/boltzgen_mixed25_clampF_confirm_seed16/boltz_results_boltzgen_mixed25_clampF_mpnn_v1_confirmation/predictions/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_apo/confidence_boltzgen_mixed25_clampF_mpnn_v1_s4235_19_apo_model_0.json",
+    "PROJECT_ROOT/predictions/boltzgen_mixed25_clampF_confirm_seed16/boltz_results_boltzgen_mixed25_clampF_mpnn_v1_confirmation/predictions/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_mutant/confidence_boltzgen_mixed25_clampF_mpnn_v1_s4235_19_mutant_model_0.json",
+    "PROJECT_ROOT/predictions/boltzgen_mixed25_clampF_confirm_seed16/boltz_results_boltzgen_mixed25_clampF_mpnn_v1_confirmation/predictions/boltzgen_mixed25_clampF_mpnn_v1_s4235_19_WT/confidence_boltzgen_mixed25_clampF_mpnn_v1_s4235_19_WT_model_0.json"
+  ]
+}

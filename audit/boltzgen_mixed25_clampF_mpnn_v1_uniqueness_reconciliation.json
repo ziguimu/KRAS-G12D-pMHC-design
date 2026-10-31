@@ -1,0 +1,11 @@
+{
+  "run_label": "boltzgen_mixed25_clampF_mpnn_v1",
+  "candidate_rows": 32,
+  "exact_unique_candidate_sequence_hashes": 32,
+  "prior_record_sequence_hashes_compared": 2517,
+  "exact_matches_in_prior_audit_generation_results": 0,
+  "coverage": "CSV/TSV/FASTA sequence and sequence-hash fields found under the existing project audit/, generation/, and results/ trees, excluding all boltzgen_mixed25_clampF follow-on files.",
+  "interpretation": "Within the recorded prior sequence tables, all 32 candidates are new unique screened sequences. This is a record-based reconciliation, not a claim about unrecorded external files.",
+  "cumulative_unique_screened_designs": 896,
+  "qualified_candidates_after_confirmation": 0
+}

@@ -1,0 +1,32 @@
+Seed set to 15
+Checking input data.
+Processing 3 inputs with 3 threads.
+  0%|          | 0/3 [00:00<?, ?it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+ 33%|███▎      | 1/3 [00:00<00:00,  6.80it/s]100%|██████████| 3/3 [00:00<00:00, 18.13it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 3 inputs.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5070 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=13` in the `DataLoader` to improve performance.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/3 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/3 [00:00<?, ?it/s]Failed to get GPU information from pynvml: Not Supported. Using default values for NVIDIA GeForce RTX 5070 Laptop GPU.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:382: UserWarning: Can't use SM120f kernel because k.shape[3] (S_kv) is not a multiple of 8. Please consider padding for maximum performance on Blackwell.
+  warn_eager_only(
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:623: UserWarning: Generic kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
+  warn_eager_only(
+GPU information: NVIDIA RTX A6000, 8, 6, 45, 84, 300, 2100
+Predicting DataLoader 0:  33%|███▎      | 1/3 [00:27<00:55,  0.04it/s]USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/boltz/data/feature/featurizerv2.py:1623: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  deletion = np.pi / 2 * np.arctan(deletion / 3)
+Predicting DataLoader 0:  67%|██████▋   | 2/3 [00:56<00:28,  0.04it/s]Predicting DataLoader 0: 100%|██████████| 3/3 [01:25<00:00,  0.04it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 3/3 [01:25<00:00,  0.04it/s]
