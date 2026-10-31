@@ -12,3 +12,7 @@ Release assets are split below 512 MiB each. The archive was verified by downloa
 
 
 Supplemental release: [archive-2026-10-31-batch2](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2). Download and verify this asset in addition to the original archive when recovering the follow-on Boltz2 screen.
+
+## Asp6 follow-on archive
+
+Download [archive-2026-10-31-batch3](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3) and extract `KRAS-Asp6-followon-screen-01.zip` at the archive root. The asset manifest records source and published hashes for all files. The stopped duplicate invocation is kept under its own prediction and log paths and is excluded from scientific metrics.
