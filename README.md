@@ -18,6 +18,10 @@ The preceding checkpoint recorded 864 unique designs screened. A sequence-hash c
 
 See [run status](RUN_STATUS_20261031.md), [follow-on status](docs/RUN_STATUS_20261031_follow_on_screen.md), [frozen criteria](docs/criteria_v1.json), [criteria amendments](docs/), [progress history](docs/PROGRESS.md), and [results](results/RESULTS.md). This archive records existing work; it does not claim that earlier scientific runs were rerun or independently validated.
 
+## Automatic Asp6 follow-on batch
+
+The automatic `boltzgen_Asp6_mixed32_v2` follow-on produced 32/32 examples according to its retained stage log (the process exit code was not captured). Its designated mutant seed-15 Boltz2 screen completed 32/32 inputs, with zero prediction failures and zero audit errors. **0/32 passed the frozen mutant gate**, so no mutant/WT/apo panel was triggered. Sequence-hash reconciliation found all 32 designs were historical duplicates: 0 new unique sequences; cumulative unique remains 896. An accidental duplicate invocation was stopped after about 77 seconds; its 589 partial files are archived separately and excluded from metrics. See [the full bilingual run record](docs/RUN_STATUS_20261031_Asp6_followon.md) and [supplemental Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3).
+
 ## Repository contents
 
 - `scripts/`: project-specific input preparation, screening, audit, and comparison scripts.
@@ -25,13 +29,13 @@ See [run status](RUN_STATUS_20261031.md), [follow-on status](docs/RUN_STATUS_202
 - `results/`: selected structures and compact analysis outputs; near-miss candidates are not qualified.
 - `inputs/`: selected public reference structures and screening inputs.
 - `docs/`: criteria history, progress, and conversation coverage notes.
-- Larger predictions, historical trees, full inputs, generation outputs, and sanitized logs are in the [historical Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31) and the [follow-on screening Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2). Each asset has a file-level manifest with source and published hashes.
+- Larger predictions, historical trees, full inputs, generation outputs, and sanitized logs are in the [historical Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31) the [follow-on screening Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2), and the [Asp6 follow-on Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3). Each asset has a file-level manifest with source and published hashes.
 
 ## Reproduction and recovery
 
 Historical commands, software versions, known corrections, incomplete or stopped runs, hardware notes, and source-coverage limits are retained where recorded. Public text copies redact local paths and host identifiers. Set paths for your own environment before running scripts; this repository is not a one-command reproduction claim.
 
-Release assets are each below 512 MiB. Extract them into a clean directory and follow [RESTORE.md](RESTORE.md). Download both the historical archive and the supplemental follow-on screening Release to recover all archived stages. The manifest distinguishes byte-identical files from privacy-redacted text copies. The corresponding original text files remain local where exact source bytes cannot be restored. Model weights, caches, and third-party tools with unresolved redistribution terms are excluded.
+Release assets are each below 512 MiB. Extract them into a clean directory and follow [RESTORE.md](RESTORE.md). Download the historical archive and both supplemental releases to recover all archived stages. The manifest distinguishes byte-identical files from privacy-redacted text copies. The corresponding original text files remain local where exact source bytes cannot be restored. Model weights, caches, and third-party tools with unresolved redistribution terms are excluded.
 
 ## Licensing
 
@@ -59,6 +63,10 @@ The redacted long-form TfR1/KRAS campaign transcript is indexed under [docs/conv
 
 详见[此前运行状态](RUN_STATUS_20261031.md)、[后续运行记录](docs/RUN_STATUS_20261031_follow_on_screen.md)、[冻结标准](docs/criteria_v1.json)、[标准修订](docs/)、[进度历史](docs/PROGRESS.md)和[结果](results/RESULTS.md)。本仓库归档已有工作，不表示重新运行或独立验证以往科学计算。
 
+### Asp6 自动后续批次
+
+自动运行 `boltzgen_Asp6_mixed32_v2` 的保留阶段日志显示 32/32 个样本完成（未捕获进程退出码）。既定 mutant seed-15 Boltz2 筛选完成 32/32 个输入，预测失败为 0、审计错误为 0；冻结 mutant 门槛通过 **0/32**，因此未启动 mutant/WT/apo 面板。序列哈希核对表明 32 条设计均为历史重复：新增独特序列 0 条，累计仍为 896。一次误启动的重复调用在约 77 秒后停止，其 589 个部分文件单独归档且不计入指标。详见[双语运行记录](docs/RUN_STATUS_20261031_Asp6_followon.md)和[补充 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3)。
+
 ### 仓库内容
 
 - `scripts/`：项目专用输入准备、筛选、审计与比较脚本。
@@ -66,7 +74,7 @@ The redacted long-form TfR1/KRAS campaign transcript is indexed under [docs/conv
 - `results/`：精选结构和精简分析结果；近似候选不代表合格。
 - `inputs/`：精选公开参考结构及筛选输入。
 - `docs/`：标准历史、进度和对话覆盖说明。
-- 大型预测、历史目录、完整输入、生成输出和脱敏日志位于[历史 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31)及[后续筛选 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2)。每个附件均附带来源与发布哈希组成的逐文件清单。
+- 大型预测、历史目录、完整输入、生成输出和脱敏日志位于[历史 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31)及[后续筛选 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2)、[Asp6 后续 Release](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3)。每个附件均附带来源与发布哈希组成的逐文件清单。
 
 ### 复现与恢复
 
