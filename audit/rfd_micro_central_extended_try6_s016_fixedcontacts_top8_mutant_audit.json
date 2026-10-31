@@ -1,0 +1,80 @@
+{
+  "rows": 8,
+  "audited": 8,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s003",
+      "condition": "mutant",
+      "iptm": 0.9284693598747253,
+      "binder_peptide_iptm_min": 0.7815317511558533,
+      "binder_HLA_iptm_min": 0.7414572834968567,
+      "peptide_atom_pairs_lt4A": 14,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s010",
+      "condition": "mutant",
+      "iptm": 0.9532550573348999,
+      "binder_peptide_iptm_min": 0.903362512588501,
+      "binder_HLA_iptm_min": 0.8220920562744141,
+      "peptide_atom_pairs_lt4A": 29,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s011",
+      "condition": "mutant",
+      "iptm": 0.9191833734512329,
+      "binder_peptide_iptm_min": 0.7407833337783813,
+      "binder_HLA_iptm_min": 0.6610719561576843,
+      "peptide_atom_pairs_lt4A": 34,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s012",
+      "condition": "mutant",
+      "iptm": 0.8928273916244507,
+      "binder_peptide_iptm_min": 0.6022205352783203,
+      "binder_HLA_iptm_min": 0.5015719532966614,
+      "peptide_atom_pairs_lt4A": 17,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s017",
+      "condition": "mutant",
+      "iptm": 0.8973398804664612,
+      "binder_peptide_iptm_min": 0.616586446762085,
+      "binder_HLA_iptm_min": 0.5181810259819031,
+      "peptide_atom_pairs_lt4A": 33,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s024",
+      "condition": "mutant",
+      "iptm": 0.9243685007095337,
+      "binder_peptide_iptm_min": 0.7818756699562073,
+      "binder_HLA_iptm_min": 0.6954905390739441,
+      "peptide_atom_pairs_lt4A": 34,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s030",
+      "condition": "mutant",
+      "iptm": 0.9337302446365356,
+      "binder_peptide_iptm_min": 0.8156262636184692,
+      "binder_HLA_iptm_min": 0.7456722259521484,
+      "peptide_atom_pairs_lt4A": 36,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s032",
+      "condition": "mutant",
+      "iptm": 0.8544227480888367,
+      "binder_peptide_iptm_min": 0.37296420335769653,
+      "binder_HLA_iptm_min": 0.31518152356147766,
+      "peptide_atom_pairs_lt4A": 19,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

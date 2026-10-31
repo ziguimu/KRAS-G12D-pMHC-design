@@ -1,0 +1,91 @@
+Seed set to 15
+Checking input data.
+Processing 32 inputs with 14 threads.
+  0%|          | 0/32 [00:00<?, ?it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+  3%|▎         | 1/32 [00:00<00:10,  3.01it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+ 47%|████▋     | 15/32 [00:00<00:00, 26.53it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+ 91%|█████████ | 29/32 [00:00<00:00, 45.81it/s]100%|██████████| 32/32 [00:00<00:00, 39.69it/s]
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 32 inputs.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA GeForce RTX 5070 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:425: The 'predict_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=13` in the `DataLoader` to improve performance.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/32 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/32 [00:00<?, ?it/s]Failed to get GPU information from pynvml: Not Supported. Using default values for NVIDIA GeForce RTX 5070 Laptop GPU.
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+GPU information: NVIDIA RTX A6000, 8, 6, 45, 84, 300, 2100
+Predicting DataLoader 0:   3%|▎         | 1/32 [00:30<15:49,  0.03it/s]USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/boltz/data/feature/featurizerv2.py:1623: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  deletion = np.pi / 2 * np.arctan(deletion / 3)
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:382: UserWarning: Can't use SM120f kernel because k.shape[3] (S_kv) is not a multiple of 8. Please consider padding for maximum performance on Blackwell.
+  warn_eager_only(
+USER_HOME/miniconda3/envs/boltz/lib/python3.11/site-packages/cuequivariance_ops_torch/triangle_attention.py:623: UserWarning: Generic kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
+  warn_eager_only(
+Predicting DataLoader 0:   6%|▋         | 2/32 [00:59<14:56,  0.03it/s]Predicting DataLoader 0:   9%|▉         | 3/32 [01:28<14:11,  0.03it/s]Predicting DataLoader 0:  12%|█▎        | 4/32 [01:57<13:43,  0.03it/s]Predicting DataLoader 0:  16%|█▌        | 5/32 [02:23<12:57,  0.03it/s]Predicting DataLoader 0:  19%|█▉        | 6/32 [02:51<12:21,  0.04it/s]Predicting DataLoader 0:  22%|██▏       | 7/32 [03:20<11:57,  0.03it/s]Predicting DataLoader 0:  25%|██▌       | 8/32 [03:50<11:32,  0.03it/s]Predicting DataLoader 0:  28%|██▊       | 9/32 [04:21<11:07,  0.03it/s]Predicting DataLoader 0:  31%|███▏      | 10/32 [04:49<10:37,  0.03it/s]Predicting DataLoader 0:  34%|███▍      | 11/32 [05:20<10:12,  0.03it/s]Predicting DataLoader 0:  38%|███▊      | 12/32 [05:50<09:43,  0.03it/s]Predicting DataLoader 0:  41%|████      | 13/32 [06:20<09:15,  0.03it/s]Predicting DataLoader 0:  44%|████▍     | 14/32 [06:47<08:43,  0.03it/s]Predicting DataLoader 0:  47%|████▋     | 15/32 [07:16<08:14,  0.03it/s]Predicting DataLoader 0:  50%|█████     | 16/32 [07:44<07:44,  0.03it/s]Predicting DataLoader 0:  53%|█████▎    | 17/32 [08:12<07:14,  0.03it/s]Predicting DataLoader 0:  56%|█████▋    | 18/32 [08:42<06:46,  0.03it/s]Predicting DataLoader 0:  59%|█████▉    | 19/32 [09:48<06:42,  0.03it/s]Predicting DataLoader 0:  62%|██████▎   | 20/32 [10:44<06:26,  0.03it/s]Predicting DataLoader 0:  66%|██████▌   | 21/32 [11:12<05:52,  0.03it/s]Predicting DataLoader 0:  69%|██████▉   | 22/32 [11:40<05:18,  0.03it/s]Predicting DataLoader 0:  72%|███████▏  | 23/32 [12:35<04:55,  0.03it/s]Predicting DataLoader 0:  75%|███████▌  | 24/32 [14:38<04:52,  0.03it/s]Predicting DataLoader 0:  78%|███████▊  | 25/32 [16:46<04:41,  0.02it/s]Predicting DataLoader 0:  81%|████████▏ | 26/32 [18:14<04:12,  0.02it/s]Predicting DataLoader 0:  84%|████████▍ | 27/32 [18:41<03:27,  0.02it/s]Predicting DataLoader 0:  88%|████████▊ | 28/32 [19:07<02:43,  0.02it/s]Predicting DataLoader 0:  91%|█████████ | 29/32 [19:37<02:01,  0.02it/s]Predicting DataLoader 0:  94%|█████████▍| 30/32 [20:06<01:20,  0.02it/s]Predicting DataLoader 0:  97%|█████████▋| 31/32 [20:35<00:39,  0.03it/s]Predicting DataLoader 0: 100%|██████████| 32/32 [21:02<00:00,  0.03it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 32/32 [21:02<00:00,  0.03it/s]

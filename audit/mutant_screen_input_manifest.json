@@ -1,0 +1,162 @@
+[
+  {
+    "candidate_id": "rfd_smoke_design_1000_s01",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s01.yaml",
+    "sha256": "9ce5d114c5a1974a9b59cd4771802403c8f2531a342e494adb18b58775c0ea66"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s02",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s02.yaml",
+    "sha256": "55776db507a6deca0b30258a54d5c1b7fc7180c1b4bb8ba8029367e7712e479b"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s03",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s03.yaml",
+    "sha256": "b52458ffaeed27cf59dfd020dde40006002bf3911a88af7f7c2b63dda9d26edb"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s04",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s04.yaml",
+    "sha256": "dd54dd52a884624e21d6cec0d40cb960c87294035c193d9efc309d9837113cf3"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s05",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s05.yaml",
+    "sha256": "f6f95d03fec772a11cb998a12a8a225232f66fc27c690591180fefdb2db2f29b"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s06",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s06.yaml",
+    "sha256": "c6a73f74a7e8d59b7277a4c289e03ceb5c0222ff84d415b89a3b18d3f6b4e687"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s07",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s07.yaml",
+    "sha256": "ff09717d61c3f1b7e849b0b19f88fa2b5f90d91f7e6111a031e1f958b372f124"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s08",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s08.yaml",
+    "sha256": "6e709deda3ad5ef9245afd3f780da00be0cd70dc93c2dc09388bb776a9a4d4c5"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s09",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s09.yaml",
+    "sha256": "207ec493bede253deaeaf20df64d1ee2274d9fe440395745b1a47292a40c0c0a"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s10",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s10.yaml",
+    "sha256": "df4a3ac5f2cc01c8ac3d08ef75bd3554cc32eafa5720e9245e327b1b167d9dd8"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s11",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s11.yaml",
+    "sha256": "4ab02b799cf803ba18824c6373516fd1fe47850dfa0ffcf43ad8835b3c299a45"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s12",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s12.yaml",
+    "sha256": "be007f09574065150e998fff89f1f4c86bb2cf31895682d1de68873616e2648d"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s13",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s13.yaml",
+    "sha256": "72490143f32e00c12dfdb43a036c6df653e5978c9f689a90a28b2c2d491b02ad"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s14",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s14.yaml",
+    "sha256": "7bf50a7455f7032ec417fd7efef709a5e40d8addfa6023764941423436bd7463"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s15",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s15.yaml",
+    "sha256": "ece81d17769f6bea248cd4aeb8c6f63e68cd6ae69fd5378ce9a0f4bb8162a9b9"
+  },
+  {
+    "candidate_id": "rfd_smoke_design_1000_s16",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/rfd_smoke_design_1000_s16.yaml",
+    "sha256": "f80533cf9dc9b9b531b2391d9ecc94e0b64f8147fcdfb7ff2c05189bc43069c5"
+  },
+  {
+    "candidate_id": "recovered_087",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_087.yaml",
+    "sha256": "305a5d342d18f89c4e6d042df0fd2d582a4add8628878ce878e8a771105bb0c5"
+  },
+  {
+    "candidate_id": "recovered_045",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_045.yaml",
+    "sha256": "0093bd24bdc2056bad6dfeafb4b0b5c4e705e80e29960c0c4b232d0cc44ff284"
+  },
+  {
+    "candidate_id": "recovered_098",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_098.yaml",
+    "sha256": "044a822c18797637cdf0ce0f666fb26eba3da7c2627ff5510f2832deb8397914"
+  },
+  {
+    "candidate_id": "recovered_084",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_084.yaml",
+    "sha256": "8fa5c744144bbfbc271824b93f54cd001b5ab18e041236ce432d997b78c66c30"
+  },
+  {
+    "candidate_id": "recovered_093",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_093.yaml",
+    "sha256": "1e3c886d3c02791d1a00d16f5079ffef038bca6ea6599377c860bbe1c20178c3"
+  },
+  {
+    "candidate_id": "recovered_071",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_071.yaml",
+    "sha256": "5f3e746c3e12daada86634a1167fc649c837676ae459beef235bac5ca88d5a8d"
+  },
+  {
+    "candidate_id": "recovered_090",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_090.yaml",
+    "sha256": "f2a5c5d166f2b57bdffedf13e65b8dc849314ef6360fa32ecbac2014101dfed3"
+  },
+  {
+    "candidate_id": "recovered_085",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_085.yaml",
+    "sha256": "7335eb8dcf468da6509d5bfedb3df5d165bd414a03e1a082567b443ce4d1caff"
+  },
+  {
+    "candidate_id": "recovered_100",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_100.yaml",
+    "sha256": "a665d9fe5903d7ffcacd689cf699539a3464321351b966627dcf97929fa043f0"
+  },
+  {
+    "candidate_id": "recovered_086",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_086.yaml",
+    "sha256": "c99befaa4d0e9b06ab1d4438ff49357f5ccd29960f3e8f9500efc35cf8794ed4"
+  },
+  {
+    "candidate_id": "recovered_080",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_080.yaml",
+    "sha256": "f315c2ade038cd82a9018aa4f4f95e24bf65dbfd72fcaacee07fee3fdf8428f4"
+  },
+  {
+    "candidate_id": "recovered_096",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_096.yaml",
+    "sha256": "46f2f347c3f1261a2480b78f3555f76b02983155b044fcdd5c2044ce2e568824"
+  },
+  {
+    "candidate_id": "recovered_034",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_034.yaml",
+    "sha256": "78cbe3ecd9ef25802ec6406659dc5642a48f7e266f54d36a3f67b2a4cc329093"
+  },
+  {
+    "candidate_id": "recovered_038",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_038.yaml",
+    "sha256": "ab2dbbf31527620bd70480f88ad431757a4f0d13e07a01f5a2a18ab3c1b3bedc"
+  },
+  {
+    "candidate_id": "recovered_078",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_078.yaml",
+    "sha256": "c5605a60278e5d6054190818eef94fe92a22ec9734ec54fd80d4406dd0133ab9"
+  },
+  {
+    "candidate_id": "recovered_095",
+    "input": "<PROJECT_ROOT>/inputs/mutant_screen/recovered_095.yaml",
+    "sha256": "5e0d39f38cb7eefeda41c67667aedbf2ae7daef7046b77bb6162690b60895c7d"
+  }
+]

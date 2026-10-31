@@ -1,0 +1,17 @@
+{
+  "native_contact_residue_pairs_5A": 65,
+  "predicted_contact_residue_pairs_5A": 61,
+  "recovered_native_pairs": 58,
+  "native_contact_recovery_fraction": 0.8923076923076924,
+  "native_interface_binder_CA_RMSD_after_HLA_fit_A": 0.3999443077042227,
+  "HLA_groove_CA_RMSD_A": 0.23170683665239672,
+  "source": "<PROJECT_ROOT>/predictions/control_variable_seed15/boltz_results_control_TCR_variable/predictions/control_TCR_variable/control_TCR_variable_model_0.pdb",
+  "scope": "TCR variable domains D1-117 and E1-116, full official pMHC; all native pMHC-contacting TCR residues retained",
+  "unmatched_terminal_atoms_excluded_from_both_contact_sets": [
+    [
+      "C",
+      10,
+      "OXT"
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "rows": 3,
+  "audited": 0,
+  "failures": 3,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_mid_try2_design_4107_s01",
+      "condition": "WT",
+      "iptm": null,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": null,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": null
+    },
+    {
+      "candidate_id": "rfd_micro_mid_try2_design_4107_s01",
+      "condition": "apo",
+      "iptm": null,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": null,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": null
+    },
+    {
+      "candidate_id": "rfd_micro_mid_try2_design_4107_s01",
+      "condition": "mutant",
+      "iptm": null,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": null,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": null
+    }
+  ]
+}

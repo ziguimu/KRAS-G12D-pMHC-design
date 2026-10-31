@@ -1,0 +1,81 @@
+{
+  "source": "<LEGACY_PMHC_ROOT>/7ow6.cif",
+  "sha256": "8ce7adf9495d3d8c7d79da690bba9be08f1aee83ba63b409e8b2a0cb35957b0e",
+  "chains": {
+    "A": {
+      "n": 276,
+      "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP",
+      "first": [
+        " ",
+        1,
+        " "
+      ],
+      "last": [
+        " ",
+        276,
+        " "
+      ]
+    },
+    "B": {
+      "n": 99,
+      "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM",
+      "first": [
+        " ",
+        1,
+        " "
+      ],
+      "last": [
+        " ",
+        99,
+        " "
+      ]
+    },
+    "C": {
+      "n": 10,
+      "sequence": "VVVGADGVGK",
+      "first": [
+        " ",
+        1,
+        " "
+      ],
+      "last": [
+        " ",
+        10,
+        " "
+      ]
+    },
+    "D": {
+      "n": 181,
+      "sequence": "AQKVTQAQTEISVVEKEDVTLDCVYETRDTAYYLFWYKQPPSGELVFLIRQPWWGEQNEISGRYSWNFQKSTSSFNFTITASQVVDSAVYFCAMSVPSGDGSYQFTFGKGTKLSVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSSDVYITDKCVLKSNSAVAWSNKACANAFN",
+      "first": [
+        " ",
+        1,
+        " "
+      ],
+      "last": [
+        " ",
+        195,
+        " "
+      ]
+    },
+    "E": {
+      "n": 245,
+      "sequence": "MNAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASKVGPGQHNSPLHFGNGTRLTVTEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+      "first": [
+        " ",
+        0,
+        " "
+      ],
+      "last": [
+        " ",
+        244,
+        " "
+      ]
+    }
+  },
+  "design_structure": "A1-275, B1-99, C1-10; no expression tag; no TCR",
+  "prediction_construct": "full official A1-281; B1-99; C1-10",
+  "unresolved_native_HLA_residues": "276-281 LSSQPT; no coordinates fabricated",
+  "P276": "7OW6 _struct_ref_seq_dif explicitly says expression tag",
+  "reference_url": "https://www.rcsb.org/structure/7OW6"
+}

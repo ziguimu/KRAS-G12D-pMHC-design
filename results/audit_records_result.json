@@ -1,0 +1,15 @@
+{
+  "rows": 4,
+  "missing_columns": [],
+  "missing_values": {},
+  "duplicate_candidate_ids": [],
+  "sample_id_column": null,
+  "duplicate_sample_ids": [],
+  "calculated_passing_ids": [],
+  "calculated_pass_count": 0,
+  "reported_pass_count": 0,
+  "gate_drift": {},
+  "unsupported_claims": {},
+  "errors": [],
+  "pass": true
+}

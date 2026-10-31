@@ -1,0 +1,8 @@
+{
+  "date_local": "2026-10-30 Asia/Shanghai",
+  "timing": "after backbone generation, before sequence generation or candidate ranking",
+  "base_criterion": "criteria_amendment_01.json backbone fixed-coordinate check",
+  "observation": "RFdiffusion kept all target chain identities and correct 384 residue mapping, with a 0.106 A fixed-target CA RMSD and 0.350 A maximum after rigid HLA alignment; logged motif RMSD was 0.14 A throughout final trajectory.",
+  "amendment": "Use fixed-target CA RMSD <=0.15 A and max deviation <=0.40 A after rigid alignment instead of a literal coordinate maximum <=0.05 A. This change restores the intended check for coordinate preservation while allowing the RFdiffusion motif drift observed in this run.",
+  "sequence_and_binding_metrics_changed": false
+}

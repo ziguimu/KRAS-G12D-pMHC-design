@@ -1,0 +1,137 @@
+﻿{
+    "run_id":  "boltzgen_g12d_site_v1",
+    "objective":  "Design de novo single-chain binders to KRAS G12D/HLA-A*11:01/beta2m pMHC; preserve criteria_v1.json gates",
+    "tool":  {
+                 "name":  "boltzgen",
+                 "version":  "0.3.2",
+                 "python":  "3.12",
+                 "torch":  "2.15.0+cu132",
+                 "gpu":  "NVIDIA GeForce RTX 5070 Laptop GPU",
+                 "gpu_memory_bytes":  8546484224
+             },
+    "target":  {
+                   "structure":  "inputs/target_7OW6_native_observed.pdb",
+                   "sha256":  "56318988D25FE4145EFECF4A7FA2C86569F6798920D9FA1DDAB7FDD275242BC9",
+                   "chain_map":  "A=HLA native observed residues 1-275; B=beta2m 1-99; C=mutant peptide 1-10",
+                   "spec":  "inputs/boltzgen/pMHC_G12D_site_binder.yaml",
+                   "spec_sha256":  "5B6B034E975234D7E958304C26879E70F8AEAAA2B2C1FB43684FD1D45733469"
+               },
+    "criteria":  "criteria_v1.json",
+    "input_check":  {
+                        "status":  "output-verified",
+                        "command":  "boltzgen check pMHC_G12D_site_binder.yaml --moldir model_cache/mols.zip --output results/boltzgen_checked_spec",
+                        "output":  "results/boltzgen_checked_spec/pMHC_G12D_site_binder.cif",
+                        "designed_residues":  "64 sampled in check visualization within requested 55-75 range"
+                    },
+    "assets":  {
+                   "molecules":  "complete",
+                   "inverse_fold_checkpoint":  "complete",
+                   "adherence_checkpoint":  "complete",
+                   "diverse_checkpoint":  "complete"
+               },
+    "planned_smoke":  {
+                          "status":  "completed_output_verified",
+                          "num_designs":  2,
+                          "steps":  [
+                                        "design",
+                                        "inverse_folding"
+                                    ],
+                          "diffusion_batch_size":  1,
+                          "design_checkpoints":  [
+                                                     "boltzgen1_adherence.ckpt"
+                                                 ],
+                          "inverse_fold_checkpoint":  "boltzgen1_ifold.ckpt",
+                          "output":  "results/boltzgen_smoke_v1",
+                          "criteria":  "BoltzGen smoke is method validation only; eligibility determined by frozen mutant/WT/apo Boltz2 gates",
+                          "command":  "boltzgen run inputs/boltzgen/pMHC_G12D_site_binder.yaml --output results/boltzgen_smoke_v1 --protocol protein-anything --steps design inverse_folding --num_designs 2 --diffusion_batch_size 1 --devices 1 --num_workers 0 --design_checkpoints model_cache/boltzgen1_adherence.ckpt --inverse_fold_checkpoint model_cache/boltzgen1_ifold.ckpt --moldir model_cache/mols.zip --cache model_cache --folding_checkpoint model_cache/boltzgen1_ifold.ckpt (local path used only to configure skipped folding step)",
+                          "attempt1":  "Configuration blocked before design: BoltzGen attempted default folding checkpoint boltz2_conf_final.ckpt and WSL could not reach Hugging Face; no model inference started."
+                      },
+    "diverse_checkpoint_partial_path":  "model_cache/boltzgen1_diverse.ckpt.partial",
+    "planned_batch":  "32 total designs in results/boltzgen_batch32_v1, resumed with --reuse and --no_subprocess",
+    "asset_hashes_sha256":  {
+                                "molecules":  "3D4F56AC4262E745BB3D09CFAA19099B1D01BE208122D501667B952E45521E53",
+                                "inverse_fold_checkpoint":  "DD4CF108C94471BDC3A326B7B180FA3854DC019110FAE780208C30B50BD56578"
+                            },
+    "adherence_download":  {
+                               "expected_bytes":  1930858014,
+                               "current_bytes":  1930858014,
+                               "status":  "complete",
+                               "sha256":  "AC7078B3DC13064C68E0C3FD542E5BC538C33558BF6607F65E499EB336CA5E5D"
+                           },
+    "smoke_results":  {
+                          "status":  "2_designs_completed_no_failures",
+                          "elapsed_design_seconds":  275.8,
+                          "inverse_fold_seconds":  9.7,
+                          "outputs":  "results/boltzgen_smoke_v1/intermediate_designs_inverse_folded",
+                          "sequence_audit":  "audit/boltzgen_smoke_v1_sequences.csv",
+                          "unique_novel_sequences":  2,
+                          "peak_gpu_memory_mib":  7838
+                      },
+    "batch32_attempt1":  {
+                             "status":  "stopped_after_2_of_32_designs_before_inverse_folding",
+                             "complete_backbones":  2,
+                             "inference_stage_started":  true,
+                             "log":  "logs/boltzgen_batch32_v1.log",
+                             "diagnosis":  "No traceback, Windows display timeout, or WSL OOM entry found; cause unresolved; outputs preserved for --reuse."
+                         },
+    "batch32_attempt2":  {
+                             "status":  "completed",
+                             "resume":  "reuse same output; --no_subprocess",
+                             "target_total_designs":  32,
+                             "completed_before_resume":  2,
+                             "current_generated_count":  16,
+                             "started_local":  "2026-10-31T11:24:51.4132418+08:00",
+                             "output":  "results/boltzgen_batch32_v1",
+                             "log":  "logs/boltzgen_batch32_resume_v1.log",
+                             "last_updated_local":  "2026-10-31T11:45:04.1496886+08:00"
+                         },
+    "mutant_screen":  {
+                          "status":  "completed_34_audited_zero_gates",
+                          "candidate_count":  34,
+                          "input":  "inputs/boltzgen_mutant_screen",
+                          "ledger":  "audit/boltzgen_site_v1_panel_ledger.csv",
+                          "run_id":  "boltzgen_site_v1_mutant_seed15",
+                          "seed":  15,
+                          "criterion":  "criteria_v1.json"
+                      },
+    "mpnn_refine":  {
+                        "status":  "completed_48_audited_one_mutant_gate_pass",
+                        "parent_candidate":  "boltzgen_site_v1_boltzgen_batch32_v1_23",
+                        "requested_per_temp":  24,
+                        "sequences_parsed":  48,
+                        "unique_novel":  48,
+                        "input_count":  48,
+                        "seed":  4023,
+                        "output":  "generation/boltzgen_mpnn_v1",
+                        "screen_run_id":  "boltzgen_mpnn_v1_seed15",
+                        "audited":  48,
+                        "mutant_seed15_passes":  1,
+                        "passed_candidate":  "boltzgen_mpnn_v1_s4023_38",
+                        "confirmation_status":  "failed_full_gate_all_three_seeds",
+                        "confirmation_gate_files":  [
+                                                        "audit/boltzgen_mpnn_v1_confirm_gate_seed15.csv",
+                                                        "audit/boltzgen_mpnn_v1_confirm_gate_seed16.csv",
+                                                        "audit/boltzgen_mpnn_v1_confirm_gate_seed17.csv"
+                                                    ]
+                    },
+    "mixed_checkpoint_batch":  {
+                                   "status":  "completed_32_of_32",
+                                   "designs":  32,
+                                   "output":  "results/boltzgen_mixed32_v1",
+                                   "log":  "logs/boltzgen_mixed32_v1.log",
+                                   "checkpoints":  [
+                                                       "model_cache/boltzgen1_adherence.ckpt",
+                                                       "model_cache/boltzgen1_diverse.ckpt"
+                                                   ],
+                                   "expected_design_steps":  500,
+                                   "started_local":  "2026-10-31T13:16:51.4038832+08:00",
+                                   "next_step":  "completed: audit 32 mutant predictions and compare frozen criteria; 0 passed, so WT/apo and repeated seeds were not run",
+                                   "mutant_screen_run_id":  "boltzgen_mixed32_mutant_seed15",
+                                   "mutant_screen_completed":  32,
+                                   "mutant_screen_passed":  0,
+                                   "audit_errors":  0,
+                                   "gate_file":  "audit/boltzgen_mixed32_mutant_gate_seed15.csv",
+                                   "metrics_file":  "audit/boltzgen_mixed32_mutant_seed15_metrics.csv",
+                                   "overlapping_resume":  "terminated to avoid concurrent writes; partial log retained at logs/boltzgen_mixed32_mutant_seed15_resume.log"
+                               }
+}

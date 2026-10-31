@@ -1,0 +1,19 @@
+{
+  "version": "v1-before-new-candidate-generation",
+  "date_local": "2026-10-30 Asia/Shanghai",
+  "requested_candidates": [3, 5],
+  "evidence_label": "predicted structural candidate, not experimentally validated binder",
+  "comparison": "componentwise best of all four legacy sequences, reevaluated under the identical full competition construct and prediction protocol",
+  "legacy_raw_values": "reported separately; old HLA includes an expression-tag P and lacks native LSSQPT; cannot silently compare as identical constructs",
+  "missing_policy": "missing or failed required evaluation is ineligible; never replaced by zero",
+  "prediction_protocol": {"model": "boltz2", "installed_version": "2.2.1", "recycles": 3, "sampling_steps": 200, "msa_max": 64, "msa_subsample": 64, "seeds_screen": [15], "seeds_confirmation": [16, 17], "templates": "none", "binder_msa": "empty", "peptide_msa": "empty"},
+  "all_required_conditions": ["mutant", "WT", "apo"],
+  "higher_is_better_mutant": ["confidence_score", "iptm", "ptm", "complex_plddt", "complex_iplddt", "binder_ptm", "binder_HLA_iptm_min", "binder_peptide_iptm_min", "peptide_atom_pairs_lt4A", "peptide_residue_pairs_lt4A", "peptide_positions_lt4A"],
+  "lower_is_better_mutant": ["complex_pde", "complex_ipde", "all_target_pairs_lt2A"],
+  "comparison_aggregation": "per-seed comparison; candidate must not be worse than best of four for any designated metric at each confirmation seed; no post-hoc seed selection",
+  "negative_controls": "report matched mutant-minus-WT and mutant-minus-apo binder_HLA_iptm_min, and mutant-minus-WT binder_peptide_iptm_min; differences must be at least the best corresponding baseline differences. These are model contrasts, not calibrated KD or proof of nonbinding.",
+  "additional_checks": ["all chain sequences exact", "no target-groove collapse", "no binder-target heavy atom distance below 2A", "generated pose and sequence traceable", "model-predicted pose retains generated peptide-facing interface", "no expression/capture-tag targeting", "3-5 unique amino acid sequences", "record sequence/scaffold redundancy explicitly"],
+  "descriptive_not_directional": ["HLA contact counts", "b2m contact counts", "Asp6 OD distance", "WT Gly6 sidechain distance (not defined)"],
+  "control_gate": "check pose/interface recovery of complete deposited 7OW6 TCR against crystal before trusting novel-candidate complex ranking; diagnose any failure before scaling",
+  "stop_rule": "do not label 3-5 sequences as passing if fewer than three pass. Retain all failures and report actual count. No experimental affinity claim without assay data."
+}

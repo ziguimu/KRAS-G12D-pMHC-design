@@ -1,0 +1,16 @@
+{
+  "confidence_score": 0.9336687922477722,
+  "iptm": 0.9150307774543762,
+  "ptm": 0.9304395318031311,
+  "complex_plddt": 0.9383282661437988,
+  "complex_iplddt": 0.9389948844909668,
+  "binder_ptm": 0.9557027220726013,
+  "binder_HLA_iptm_min": 0.6876111030578613,
+  "binder_peptide_iptm_min": 0.7070804834365845,
+  "peptide_atom_pairs_lt4A": 37.0,
+  "peptide_residue_pairs_lt4A": 8.0,
+  "peptide_positions_lt4A": 5.0,
+  "complex_pde": 0.39101922512054443,
+  "complex_ipde": 1.3756498098373413,
+  "all_target_pairs_lt2A": 0.0
+}

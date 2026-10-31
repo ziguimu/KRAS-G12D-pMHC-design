@@ -1,0 +1,50 @@
+[
+  {
+    "file": "baseline_03_WT.yaml",
+    "sha256": "97b21a3cf589b40a1fb6ef73b7d7ea8b5c46b6f0c87caaabb56a95b2f3bab87b"
+  },
+  {
+    "file": "baseline_03_apo.yaml",
+    "sha256": "d4a946d19981800635a5fc8222bd3e9369599548352b6eea28be088a44304214"
+  },
+  {
+    "file": "baseline_03_mutant.yaml",
+    "sha256": "8ce3e173b78c360579c6d70688feff9af082be7ad459b837fb801d72ea9146ba"
+  },
+  {
+    "file": "baseline_05_WT.yaml",
+    "sha256": "42e242a8e5917d46a5a8d786e525470a40ba11619cad0402c8e90dbc814b1bc2"
+  },
+  {
+    "file": "baseline_05_apo.yaml",
+    "sha256": "59bdc724ef963a3fd7e9ac794f1e652bb3365054dd8779f932625ddfd3429463"
+  },
+  {
+    "file": "baseline_05_mutant.yaml",
+    "sha256": "fcd6e6da7e190a6f07fcb8f00c1f45f0ef999b727e707c48c1d60c9ee76deccb"
+  },
+  {
+    "file": "baseline_12_WT.yaml",
+    "sha256": "316e10fce125ec1ad256623eca533c30ef8a1636affc8e988c1be7be24fd1932"
+  },
+  {
+    "file": "baseline_12_apo.yaml",
+    "sha256": "d0609fa3cefdc463d3ebe216c2b2890bdac4e67c577cbf38fe8e5a13e97ff521"
+  },
+  {
+    "file": "baseline_12_mutant.yaml",
+    "sha256": "baba6308967463dc89aa2d7b6d39c59ad15f62e14d6f657d4f358b30a7fa8c9c"
+  },
+  {
+    "file": "baseline_14_WT.yaml",
+    "sha256": "2f9e3c892166a86a25cf4f52bbe747117bfa69db0bdf0a7fb13ff808367605b2"
+  },
+  {
+    "file": "baseline_14_apo.yaml",
+    "sha256": "d04c456211453bc83315046b1fcd1ad334f08a42075ea00caf322723ba2b666c"
+  },
+  {
+    "file": "baseline_14_mutant.yaml",
+    "sha256": "478ef107220e6168280b3376fb7e6b782b09f86fbf642dbf445e13a6c8aa5831"
+  }
+]

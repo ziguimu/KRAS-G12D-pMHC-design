@@ -1,0 +1,19 @@
+{
+  "contig": "A1-275/0 B1-99/0 C1-10/0 80-100",
+  "binder_length_example": 88,
+  "fixed_target_count": 384,
+  "hotspots": [
+    "C4",
+    "C5",
+    "C7",
+    "C8"
+  ],
+  "hotspot_indices": [
+    377,
+    378,
+    380,
+    381
+  ],
+  "all_target_residues_fixed": true,
+  "all_generated_residues_binder_only": true
+}

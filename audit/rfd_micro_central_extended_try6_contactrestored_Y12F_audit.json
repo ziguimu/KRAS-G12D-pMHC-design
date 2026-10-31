@@ -1,0 +1,17 @@
+{
+  "rows": 1,
+  "audited": 1,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_design_4118_s08_s016_interfacebias_s001_contactrestored_Y12F",
+      "condition": "mutant",
+      "iptm": 0.881050705909729,
+      "binder_peptide_iptm_min": 0.5183606743812561,
+      "binder_HLA_iptm_min": 0.43076789379119873,
+      "peptide_atom_pairs_lt4A": 20,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

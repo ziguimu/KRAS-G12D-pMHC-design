@@ -1,0 +1,70 @@
+{
+  "confidence_score": {
+    "direction": ">=",
+    "value": 0.9174858927726746
+  },
+  "iptm": {
+    "direction": ">=",
+    "value": 0.8927685022354126
+  },
+  "ptm": {
+    "direction": ">=",
+    "value": 0.9131418466567993
+  },
+  "complex_plddt": {
+    "direction": ">=",
+    "value": 0.9393037557601929
+  },
+  "complex_iplddt": {
+    "direction": ">=",
+    "value": 0.9335567951202393
+  },
+  "binder_ptm": {
+    "direction": ">=",
+    "value": 0.9397894144058228
+  },
+  "binder_HLA_iptm_min": {
+    "direction": ">=",
+    "value": 0.4882291257381439
+  },
+  "binder_peptide_iptm_min": {
+    "direction": ">=",
+    "value": 0.5892764329910278
+  },
+  "peptide_atom_pairs_lt4A": {
+    "direction": ">=",
+    "value": 38.0
+  },
+  "peptide_residue_pairs_lt4A": {
+    "direction": ">=",
+    "value": 11.0
+  },
+  "peptide_positions_lt4A": {
+    "direction": ">=",
+    "value": 7.0
+  },
+  "complex_pde": {
+    "direction": "<=",
+    "value": 0.5025302171707153
+  },
+  "complex_ipde": {
+    "direction": "<=",
+    "value": 2.507911443710327
+  },
+  "all_target_pairs_lt2A": {
+    "direction": "<=",
+    "value": 0.0
+  },
+  "mutant_minus_WT_binder_HLA_iptm_min": {
+    "direction": ">=",
+    "value": 0.09838786721229553
+  },
+  "mutant_minus_apo_binder_HLA_iptm_min": {
+    "direction": ">=",
+    "value": -0.1924225389957428
+  },
+  "mutant_minus_WT_binder_peptide_iptm_min": {
+    "direction": ">=",
+    "value": 0.09410712122917175
+  }
+}

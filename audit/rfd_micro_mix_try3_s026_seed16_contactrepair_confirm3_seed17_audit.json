@@ -1,0 +1,89 @@
+{
+  "rows": 9,
+  "audited": 9,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s005",
+      "condition": "WT",
+      "iptm": 0.813284158706665,
+      "binder_peptide_iptm_min": 0.1748492270708084,
+      "binder_HLA_iptm_min": 0.14801917970180511,
+      "peptide_atom_pairs_lt4A": 3,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s005",
+      "condition": "apo",
+      "iptm": 0.9276163578033447,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": 0.7583765387535095,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s005",
+      "condition": "mutant",
+      "iptm": 0.959934413433075,
+      "binder_peptide_iptm_min": 0.9097181558609009,
+      "binder_HLA_iptm_min": 0.8638981580734253,
+      "peptide_atom_pairs_lt4A": 43,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s055",
+      "condition": "WT",
+      "iptm": 0.873975396156311,
+      "binder_peptide_iptm_min": 0.4801042079925537,
+      "binder_HLA_iptm_min": 0.43942946195602417,
+      "peptide_atom_pairs_lt4A": 17,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s055",
+      "condition": "apo",
+      "iptm": 0.9157137870788574,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": 0.6777377128601074,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s055",
+      "condition": "mutant",
+      "iptm": 0.9504329562187195,
+      "binder_peptide_iptm_min": 0.8884134292602539,
+      "binder_HLA_iptm_min": 0.8266779184341431,
+      "peptide_atom_pairs_lt4A": 51,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s092",
+      "condition": "WT",
+      "iptm": 0.8560878038406372,
+      "binder_peptide_iptm_min": 0.3154022693634033,
+      "binder_HLA_iptm_min": 0.30480143427848816,
+      "peptide_atom_pairs_lt4A": 0,
+      "all_target_pairs_lt2A": 1
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s092",
+      "condition": "apo",
+      "iptm": 0.8699398636817932,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": 0.45680171251296997,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_mix_try3_s026_seed16_interfacebias_s092",
+      "condition": "mutant",
+      "iptm": 0.960088312625885,
+      "binder_peptide_iptm_min": 0.9094906449317932,
+      "binder_HLA_iptm_min": 0.870216965675354,
+      "peptide_atom_pairs_lt4A": 53,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

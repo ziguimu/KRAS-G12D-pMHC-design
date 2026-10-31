@@ -1,0 +1,10 @@
+﻿{
+    "resume_process":  "overlapping automatic resume process received SIGTERM and was terminated; partial log retained.",
+    "completed":  32,
+    "mutant_gate_passed":  0,
+    "correction":  "A prepared-only ledger was treated as a historical screened sequence source. Cross-checking the prior ledger status and presence of matching prediction outputs showed that the matches had not been screened. The 32 current candidates were eligible for the planned screen.",
+    "candidate_count":  32,
+    "superseded_ledger":  "boltzgen_mixed32_v1_panel_ledger.csv prior duplicate_excluded state is preserved in source package history before correction.",
+    "confirmations":  "WT/apo and repeated seeds not run because no candidate passed the first-stage mutant gate.",
+    "audit_errors":  0
+}

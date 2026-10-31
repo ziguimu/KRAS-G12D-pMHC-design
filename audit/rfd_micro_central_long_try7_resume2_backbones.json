@@ -1,0 +1,17 @@
+[
+  {
+    "backbone_id": "design_4119",
+    "status": "eligible_for_mpnn",
+    "binder_length": 75,
+    "target_fixed_CA_max_deviation_A": 0.3633785746523582,
+    "peptide_residues_within8A": 7,
+    "binder_target_CA_min_A": 4.095478534698486,
+    "binder_backbone_target_heavy_pairs_lt2A": 0,
+    "rfd_mean_last_plddt": 0.9957406520843506,
+    "pdb": "<PROJECT_ROOT>/generation/rfd_micro_central_long_try7_resume2/restored/design_4119_restored.pdb",
+    "rfd_pdb": "<PROJECT_ROOT>/generation/rfd_micro_central_long_try7_resume2/design_4119.pdb",
+    "rfd_pdb_sha256": "e859cc5450c1fabcfe03221715d6c658c7f0e0c9094239bfc5b1b4cb0e0bc0c7",
+    "trb_sha256": "5c1a1eadf99caa23ba54756c76c06c1da497f8ecf8429bed031964f07e73ea8d",
+    "source_target_sha256": "56318988d25fe4145efecf4a7fa2c86569f6798920d9fa1ddab7fdd275242bc9"
+  }
+]

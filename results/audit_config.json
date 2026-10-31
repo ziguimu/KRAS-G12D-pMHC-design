@@ -1,0 +1,19 @@
+{
+  "candidate_id_column": "candidate_id",
+  "required_metrics": ["overall_qualified"],
+  "required_columns": ["sequence", "length", "sequence_sha256", "origin", "seed15_mutant_gate", "seed15_failed_metrics", "full_confirmation"],
+  "criteria": [
+    {"metric": "overall_qualified", "op": "==", "value": 1}
+  ],
+  "reported_pass_count": 0,
+  "gates": {
+    "mutant": "strict componentwise best of four legacy candidates at each matched seed",
+    "controls": "matched WT and peptide-free MHC contrast at seeds 15, 16, and 17",
+    "repeats": [15, 16, 17]
+  },
+  "reported_gates": {
+    "mutant": "strict componentwise best of four legacy candidates at each matched seed",
+    "controls": "matched WT and peptide-free MHC contrast at seeds 15, 16, and 17",
+    "repeats": [15, 16, 17]
+  }
+}

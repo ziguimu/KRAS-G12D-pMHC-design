@@ -1,0 +1,12 @@
+{
+  "date_local": "2026-10-30 Asia/Shanghai",
+  "base": "criteria_v1.json",
+  "timing": "before any new backbone generation or new candidate prediction/ranking",
+  "control_gate_amendment": "Use native TCR variable-domain pose recovery, retaining full assay pMHC. All native pMHC contact residues retained; removed constant-region atoms are at least 34.44 A from pMHC. Full TCR run was stopped for resource cost, not biological failure.",
+  "control_operational_gate": {"native_residue_contact_recovery_fraction_5A_min": 0.5, "native_interface_binder_CA_RMSD_after_HLA_fit_A_max": 4.0},
+  "scope_of_control_thresholds": "Task-specific minimum recovery of a majority of known contact residue pairs and localization of interface residues. This is a geometry usability check, not an affinity or specificity calibration, and is not transferred as a universal binder score cutoff.",
+  "backbone_preselection": {"peptide_residues_within8A_min": 3, "binder_target_CA_min_A_min": 3.0, "target_fixed_CA_max_deviation_A_max": 0.05},
+  "backbone_preselection_scope": "Filter obvious off-peptide poses, severe backbone overlap, or broken fixed-target mappings before sequence generation; these values do not establish binding.",
+  "predicted_vs_generated_pose": "Align by HLA groove CA1-180; retain at least half of generated binder-peptide CA residue pairs within 8 A and report binder CA RMSD. Majority-contact preservation is an operational check of retained design intent, not affinity.",
+  "numerical_noninferiority_gates_changed": false
+}

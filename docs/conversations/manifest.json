@@ -1,0 +1,29 @@
+{
+  "project": "KRAS-G12D-pMHC-design",
+  "redaction_policy": "Message order and original language retained. Local absolute paths, profile data, emails, conversation/message UUIDs, private IPs, loopback endpoints and credential-shaped strings are redacted. Public SHA-256 values are for the published copy; source hashes identify local originals.",
+  "records": [
+    {
+      "record_id": "6ad84508",
+      "title": "Mixed TfR1 and KRAS G12D pMHC design campaign",
+      "source_relative_path": "2026-10-31_ChatGPT导出补充审阅/6ad84508_提取分析靶点方向_完整导出.md",
+      "public_path": "docs/conversations/2026-10-21_TfR1_KRAS_G12D_design_campaign_6ad84508.md",
+      "source_bytes": 776992,
+      "public_bytes": 753201,
+      "source_sha256": "053e19de11c4757aad6211f8ae338d6e931c7b177ccff8ca0c916b18d316bb2d",
+      "public_sha256": "261727d80e84bf4fab3e9a3edd4e6363a07f3064a8bf9d035805668ffa70133f",
+      "redactions_applied": {
+        "LEGACY_PMHC_ROOT": 21,
+        "USER_HOME": 85,
+        "LOCAL_PATH": 328,
+        "uuid": 302
+      },
+      "message_counts": {
+        "user_visible": 149,
+        "assistant_visible": 153
+      },
+      "branch_points": 0,
+      "coverage": "full visible-node semantic review; attachments not all visually reviewed and structural files not independently recalculated",
+      "attachments": "No attachment files were copied into this transcript package; source-export attachment coverage remains as recorded in the local archive."
+    }
+  ]
+}

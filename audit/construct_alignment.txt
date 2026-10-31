@@ -1,0 +1,21 @@
+Official HLA length: 281
+Legacy HLA length: 276
+target            0 GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYW
+                  0 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query             0 GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYW
+
+target           60 DQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDG
+                 60 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query            60 DQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDG
+
+target          120 KDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQ
+                120 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           120 KDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQ
+
+target          180 RTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGT
+                180 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+query           180 RTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGT
+
+target          240 FQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQPT 281
+                240 |||||||||||||||||||||||||||||||||||-----. 281
+query           240 FQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE-----P 276

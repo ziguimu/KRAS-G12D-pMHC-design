@@ -1,0 +1,4 @@
+>rfd_micro_central_extended_try6_s016_fixedcontacts_resample02_s024|NOT_QUALIFIED|initial_seed15_mutant_gate=PASS|Initial mutant seed15 screen passed; an independent same-seed mutant prediction had only 32 peptide atom pairs (<37 required). WT/apo seed15 were predicted, but no repeat-seed panel was run after the mutant contact failure.
+EAARVAAENAAYAAEMRRRMEVGLAEYEKIAAEIEPKDPALAAKLRAAAAERRAVTEANVAELLA
+>rfd_micro_central_extended_try6_s016_fixedcontacts_resample05_d6_bias_partialfix_s016|NOT_QUALIFIED|initial_seed15_mutant_gate=PASS|Initial mutant seed15 screen passed; full mutant/WT/apo seed15 rerun failed absolute clash and all three mutant-minus-control contrast thresholds. No seed16/17 predictions were run after the seed15 failure.
+AAAAVAAENAARAARLRRRMAVGREVYAEIAAEIAPQDPALAAKLLAGEAARAAATEANIAELTA

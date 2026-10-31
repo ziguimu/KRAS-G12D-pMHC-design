@@ -1,0 +1,29 @@
+# BoltzGen de novo binder specification for the native-observed 7OW6 pMHC.
+# Target coordinate chains: A=HLA-A*11:01 (native residues 1-275),
+# B=beta-2-microglobulin (1-99), C=KRAS G12D peptide (1-10).
+entities:
+  - protein:
+      id: D
+      sequence: 55..75
+  - file:
+      path: ../target_7OW6_native_observed.pdb
+      include:
+        - chain:
+            id: A
+            res_index: 1..275
+        - chain:
+            id: B
+            res_index: 1..99
+        - chain:
+            id: C
+            res_index: 1..10
+      binding_types:
+        - chain:
+            id: C
+            binding: 1..10
+        - chain:
+            id: A
+            binding: 5,7,9,33,45,59,62..63,66..67,69..70,73..74,77,80..81,84,95,97,99,114,116,123..124,142..143,146..147,150,152,155..156,159..160,163..164,167,171
+        - chain:
+            id: B
+            not_binding: all

@@ -1,0 +1,62 @@
+[
+  {
+    "backbone_id": "design_4112",
+    "status": "eligible_for_mpnn",
+    "binder_length": 69,
+    "target_fixed_CA_max_deviation_A": 0.32922490870260707,
+    "peptide_residues_within8A": 7,
+    "binder_target_CA_min_A": 4.432693958282471,
+    "binder_backbone_target_heavy_pairs_lt2A": 0,
+    "rfd_mean_last_plddt": 0.9968982338905334,
+    "pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/restored/design_4112_restored.pdb",
+    "rfd_pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/design_4112.pdb",
+    "rfd_pdb_sha256": "6b89f66ac7e5ee3a3eef2f79ee2bc2965c224d1e9c516883ed9678f45e93b8ae",
+    "trb_sha256": "ba4f3743ffe550f5f19591598353422b19fc84f3008a0a324eb914565f91712a",
+    "source_target_sha256": "56318988d25fe4145efecf4a7fa2c86569f6798920d9fa1ddab7fdd275242bc9"
+  },
+  {
+    "backbone_id": "design_4113",
+    "status": "eligible_for_mpnn",
+    "binder_length": 60,
+    "target_fixed_CA_max_deviation_A": 0.3365827686008091,
+    "peptide_residues_within8A": 7,
+    "binder_target_CA_min_A": 4.0712127685546875,
+    "binder_backbone_target_heavy_pairs_lt2A": 0,
+    "rfd_mean_last_plddt": 0.996933102607727,
+    "pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/restored/design_4113_restored.pdb",
+    "rfd_pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/design_4113.pdb",
+    "rfd_pdb_sha256": "5e2c2d0dbfe7861be04dc6df3a3f503c76ac771f2edcb3f5cfb30c6057985737",
+    "trb_sha256": "d8069934b1d7a81f8bb08ef8db28c6990925dcd89335dcefe7a4d7a245ce66a8",
+    "source_target_sha256": "56318988d25fe4145efecf4a7fa2c86569f6798920d9fa1ddab7fdd275242bc9"
+  },
+  {
+    "backbone_id": "design_4114",
+    "status": "eligible_for_mpnn",
+    "binder_length": 60,
+    "target_fixed_CA_max_deviation_A": 0.3277981402371702,
+    "peptide_residues_within8A": 6,
+    "binder_target_CA_min_A": 4.672537326812744,
+    "binder_backbone_target_heavy_pairs_lt2A": 0,
+    "rfd_mean_last_plddt": 0.9966219067573547,
+    "pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/restored/design_4114_restored.pdb",
+    "rfd_pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/design_4114.pdb",
+    "rfd_pdb_sha256": "8337432a705eca65e5c213c0e8dfeea89de663b78f27fbe581e4c4abec4b98e8",
+    "trb_sha256": "0ad3586c0154dbd8cbd5ed9d145abbddba48598f7f1641809b3cdd3db23399e0",
+    "source_target_sha256": "56318988d25fe4145efecf4a7fa2c86569f6798920d9fa1ddab7fdd275242bc9"
+  },
+  {
+    "backbone_id": "design_4115",
+    "status": "eligible_for_mpnn",
+    "binder_length": 62,
+    "target_fixed_CA_max_deviation_A": 0.36111547342750866,
+    "peptide_residues_within8A": 8,
+    "binder_target_CA_min_A": 4.243442535400391,
+    "binder_backbone_target_heavy_pairs_lt2A": 0,
+    "rfd_mean_last_plddt": 0.9970608949661255,
+    "pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/restored/design_4115_restored.pdb",
+    "rfd_pdb": "<PROJECT_ROOT>/generation/rfd_micro_terminal_mix_try4/design_4115.pdb",
+    "rfd_pdb_sha256": "a96ac99527e95d7cdb20484c8481d394b152352dbbd7d601a94772d1f31dc268",
+    "trb_sha256": "2ac6f2684d46ac8f02df187e24c98cd94d280886dfb575a5ae014eb1b82b9f94",
+    "source_target_sha256": "56318988d25fe4145efecf4a7fa2c86569f6798920d9fa1ddab7fdd275242bc9"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "rows": 2,
+  "audited": 2,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s016",
+      "condition": "WT",
+      "iptm": 0.8866474032402039,
+      "binder_peptide_iptm_min": 0.5220826864242554,
+      "binder_HLA_iptm_min": 0.43582049012184143,
+      "peptide_atom_pairs_lt4A": 6,
+      "all_target_pairs_lt2A": 0
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s016",
+      "condition": "apo",
+      "iptm": 0.8695567846298218,
+      "binder_peptide_iptm_min": null,
+      "binder_HLA_iptm_min": 0.5249610543251038,
+      "peptide_atom_pairs_lt4A": null,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

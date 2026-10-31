@@ -1,0 +1,17 @@
+{
+  "rows": 1,
+  "audited": 1,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_s030_Q8R",
+      "condition": "mutant",
+      "iptm": 0.9503591060638428,
+      "binder_peptide_iptm_min": 0.8992534875869751,
+      "binder_HLA_iptm_min": 0.8166944980621338,
+      "peptide_atom_pairs_lt4A": 19,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

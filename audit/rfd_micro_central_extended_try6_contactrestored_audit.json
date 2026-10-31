@@ -1,0 +1,26 @@
+{
+  "rows": 2,
+  "audited": 2,
+  "failures": 0,
+  "errors": [],
+  "summary": [
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_design_4118_s08_s016_interfacebias_s001_contactrestored",
+      "condition": "mutant",
+      "iptm": 0.9260271191596985,
+      "binder_peptide_iptm_min": 0.7514232993125916,
+      "binder_HLA_iptm_min": 0.6838224530220032,
+      "peptide_atom_pairs_lt4A": 43,
+      "all_target_pairs_lt2A": 1
+    },
+    {
+      "candidate_id": "rfd_micro_central_extended_try6_design_4118_s08_s016_interfacebias_s002_contactrestored",
+      "condition": "mutant",
+      "iptm": 0.9144969582557678,
+      "binder_peptide_iptm_min": 0.7235730886459351,
+      "binder_HLA_iptm_min": 0.6172469854354858,
+      "peptide_atom_pairs_lt4A": 43,
+      "all_target_pairs_lt2A": 0
+    }
+  ]
+}

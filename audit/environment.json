@@ -1,0 +1,7 @@
+{
+  "python": "3.11.16",
+  "torch": "2.14.1+cu130",
+  "boltz": "2.2.1",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "gpu_memory_bytes": 8546484224
+}

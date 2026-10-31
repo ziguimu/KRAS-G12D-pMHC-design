@@ -1,0 +1,11 @@
+{
+  "run_id": "rfd_micro_central_extended_try6_s016_fixedcontacts_resample03_on_pose",
+  "generated": 192,
+  "unique_novel_after_exclusion": 192,
+  "excluded_metric_files": [
+    "rfd_micro_central_extended_try6_s016_fixedcontacts_all32_metrics.csv",
+    "rfd_micro_central_extended_try6_s016_fixedcontacts_resample02_seed15_mutant_metrics.csv"
+  ],
+  "selected": 32,
+  "selection": "lowest ProteinMPNN score after exact sequence deduplication and excluding prior tested sequences"
+}
