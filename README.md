@@ -45,6 +45,12 @@ Original code is MIT licensed where rights are established. Original documentati
 
 The redacted long-form TfR1/KRAS campaign transcript is indexed under [docs/conversations](docs/conversations/README.md). The current GitHub-archival chat record is partial; the linked prior ChatGPT conversation was unavailable for retrieval, and inaccessible turns or attachments are not represented as complete coverage.
 
+## Asp6 candidate 01 screen and confirmation (2026-11-01)
+
+The completed `boltzgen_Asp6_cand01_mpnn_v1` batch contains 64 designs. Its seed-15 mutant screen parsed 64/64 predictions without audit errors; 2/64 passed the initial mutant gate and 62/64 failed. A six-input mutant/WT/apo confirmation panel was evaluated at seeds 15, 16, and 17. Both candidates failed the numeric gate at every seed (6/6 candidate-seed comparisons failed), so **zero candidates qualified**. Sequence reconciliation found 64 unique sequences within this batch and no exact match among the 367 historical sequence records scanned. The prior documented cumulative count remains 896 for its stated scope; this comparison does not support recomputing a global total.
+
+Seed 15 and seed 17 confirmation processes exited 0. Seed 16 logs and all six parsed prediction outputs are complete, but its process exit code was not captured. Fresh download recovery passed for 1,004/1,004 files: 920 byte-identical and 84 privacy-transformed, with no missing, size, hash, unsafe-path, unexpected-member, or ZIP CRC errors. See [the run record](docs/RUN_STATUS_20261101_Asp6_cand01.md) and [Release archive-2026-11-01-batch4](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-11-01-batch4).
+
 ## 中文说明
 
 本项目记录 KRAS G12D pMHC 结合剂的计算设计和对照筛选。计算预测不等同于实验结合证据。
@@ -90,6 +96,9 @@ Release 单个附件均小于 512 MiB。请解压到干净目录并按 [RESTORE.
 
 脱敏后的 TfR1/KRAS 长流程对话见 [docs/conversations](docs/conversations/README.md)。本次 GitHub 归档对话记录为部分覆盖；所链接的先前 ChatGPT 对话无法读取，未将无法访问的消息或附件表示为完整记录。
 
-### Asp6 candidate 01 绛涢€変笌纭锛?026-11-01锛?
-宸插畬鎴愮殑 `boltzgen_Asp6_cand01_mpnn_v1` 鎵规鍖呭惈 64 鏉¤璁°€俿eed 15 mutant 绛涢€夎В鏋?64/64 涓娴嬩笖瀹¤鏃犻敊璇紱鍒濈瓫閫氳繃 2/64锛屾湭閫氳繃 62/64銆傞殢鍚庡涓ゆ潯鍊欓€夊缓绔嬪叚涓?mutant/WT/apo 杈撳叆锛屽苟鍒嗗埆鍦?seed 15銆?6銆?7 璇勪环銆備袱鏉″€欓€夊湪姣忎釜绉嶅瓙涓嬪潎鏈€氳繃鏁板€奸棬妲涳紙鍊欓€?绉嶅瓙姣旇緝 6/6 鍧囧け璐ワ級锛屽洜姝?*鍚堟牸鍊欓€変负闆?*銆傚簭鍒楁牳瀵规樉绀鸿鎵规鍐呴儴 64 鏉″悇涓嶇浉鍚岋紝涓斾笌鎵弿鐨?367 鏉″巻鍙插簭鍒楄褰曟棤瀹屽叏鍖归厤锛涙寜鏈璁板綍鐨勬壂鎻忚寖鍥达紝绱鐙壒璁捐涓?960 鏉°€?
-seed 15 鍜?seed 17 纭杩涚▼閫€鍑虹爜涓?0銆俿eed 16 鏃ュ織鍙婂叚涓娴嬭緭鍑哄潎瀹屾暣骞跺畬鎴愯В鏋愶紝浣嗘湭鎹曡幏杩涚▼閫€鍑虹爜銆傜嫭绔嬩笅杞芥仮澶嶆牎楠岄€氳繃锛?,004/1,004 涓枃浠讹紝鍏朵腑 920 涓瓧鑺備竴鑷淬€?4 涓粡杩囬殣绉佽浆鎹紱鏃犵己浠躲€佸ぇ灏忔垨鍝堝笇涓嶇銆佷笉瀹夊叏璺緞銆佹剰澶栨垚鍛樻垨 ZIP CRC 閿欒銆傝瑙乕杩愯璁板綍](docs/RUN_STATUS_20261101_Asp6_cand01.md)鍙奫Release archive-2026-11-01-batch4](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-11-01-batch4)銆?
+### Asp6 candidate 01 筛选与确认（2026-11-01）
+
+已完成的 `boltzgen_Asp6_cand01_mpnn_v1` 批次包含 64 条设计。seed 15 mutant 筛选解析 64/64 个预测且审计无错误；初筛通过 2/64，未通过 62/64。随后对两条候选建立六个 mutant/WT/apo 输入，并分别在 seed 15、16、17 评价。两条候选在每个种子下均未通过数值门槛（候选-种子比较 6/6 均失败），因此**合格候选为零**。序列核对显示该批次内部 64 条各不相同，且与扫描的 367 条历史序列记录无完全匹配。此前项目级累计数 896 条仍仅适用于原有记录范围；本次比较覆盖不足，不能据此重算全局累计数。
+
+seed 15 和 seed 17 确认进程退出码为 0。seed 16 日志及六个预测输出均完整并完成解析，但未捕获进程退出码。独立下载恢复校验通过：1,004/1,004 个文件，其中 920 个字节一致、84 个经过隐私转换；无缺件、大小或哈希不符、不安全路径、意外成员或 ZIP CRC 错误。详见[运行记录](docs/RUN_STATUS_20261101_Asp6_cand01.md)及[Release archive-2026-11-01-batch4](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-11-01-batch4)。
+
