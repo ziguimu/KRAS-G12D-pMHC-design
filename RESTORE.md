@@ -16,3 +16,7 @@ Supplemental release: [archive-2026-10-31-batch2](https://github.com/ziguimu/KRA
 ## Asp6 follow-on archive
 
 Download [archive-2026-10-31-batch3](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3) and extract `KRAS-Asp6-followon-screen-01.zip` at the archive root. The asset manifest records source and published hashes for all files. The stopped duplicate invocation is kept under its own prediction and log paths and is excluded from scientific metrics.
+
+## Asp6 candidate 01 archive
+
+Download [archive-2026-11-01-batch4](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-11-01-batch4), containing KRAS-Asp6-cand01-confirmation-01.zip and ASSETS_INDEX.json. ZIP SHA-256: 3a0b54786a2614de8c5fb4d59cbd540a47f2124e6e171cdd0c48323b6e8fa506. Extract into a new empty directory and run the manifest-aware restore verifier. Fresh recovery passed for 1,004/1,004 members (920 byte-identical; 84 privacy-transformed).
